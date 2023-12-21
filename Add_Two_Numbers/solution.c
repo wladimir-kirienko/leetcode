@@ -10,6 +10,8 @@ struct ListNode {
 };
 
 struct ListNode* addTwoNumbers(struct ListNode* l1, struct ListNode* l2) {
+	//Elementary Math 
+	//Time: O(max(m,n)) Space: O(1)
     struct ListNode dummy_head = {0};
     struct ListNode* cur = &dummy_head;
     int carry = 0;
